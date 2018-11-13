@@ -20,6 +20,12 @@ app.use('/products', product);
 
 
 
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/View/index.html');
+  
+});
+
+
 
 
 
