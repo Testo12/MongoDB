@@ -36,7 +36,3 @@ exports.update = function(req,res){
       res.send('Product REMOVED BY FORCE');
     });
   };
-
-  var Index = require('../View/create');
-
-    ;
